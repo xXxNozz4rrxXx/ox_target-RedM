@@ -55,7 +55,7 @@ Remove or disable any other codexstudios-target / qtarget resource if you use th
 
 This fork binds directly to codex_core:
 
-Uses exports['codex_core']:getLibClient() on the client.
+Uses```exports['codex_core']:getLibClient()``` on the client.
 
 Resolves player job / group through CodexCore.
 
@@ -74,6 +74,7 @@ exports['codexstudios-target']:...
 
 Native ox_target (recommended for new code):
 
+```
 exports.ox_target:addSphereZone({
     name   = 'codex_sheriff_armory',
     coords = vec3(-274.5, 806.2, 119.4),
@@ -88,10 +89,11 @@ exports.ox_target:addSphereZone({
         }
     }
 })
+```
 
 
 Codex/qtarget-style (compat layer):
-
+```
 exports['codexstudios-target']:AddBoxZone('bank', vector3(0.0, 0.0, 0.0), 2.0, 2.0, {
     name      = 'bank',
     heading   = 0.0,
@@ -110,7 +112,7 @@ exports['codexstudios-target']:AddBoxZone('bank', vector3(0.0, 0.0, 0.0), 2.0, 2
     },
     distance = 2.5
 })
-
+```
 📜 Credits
 
 Original ox_target by overextended.
