@@ -8,7 +8,7 @@ A customized **RedM** fork of [`ox_target`](https://github.com/overextended/ox_t
 
 - 🔐 **CodexCore integration**
   - Uses CodexCore jobs/groups for target permissions.
-  - Optional item checks via `ox_inventory`.
+  - Optional item checks via `ox_inventory` (SOON will be fully ready for VORP , RSG , TPZ).
 
 - 🧩 **CodexStudios / qtarget compatibility**
   - Provides `codexstudios-target` exports.
